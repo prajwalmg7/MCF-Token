@@ -54,7 +54,7 @@ contract MCFToken is Context,IERC20,Ownable,ReentrancyGuard,Pausable {
     constructor()  {
         
         _name = "MCFToken";
-        _symbol =" MCF";
+        _symbol ="MCF";
         _decimals = 10;
         _totalSupply = 150000000;
         _balances[msg.sender]=_totalSupply;
